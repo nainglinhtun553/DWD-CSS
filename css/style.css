@@ -1,0 +1,46 @@
+/**{
+	font-size: 20px;
+}
+
+
+h1{
+	background-color:blue;
+}*/
+
+
+/* css rule and syntex.
+selector {
+	prpperty:value;
+}*/
+
+
+
+/*unversial selector =*
+  element selector =h1
+  id sector =#
+  class selector =.
+
+*/
+
+/*descend selector*/
+
+ul li{
+	font-size: 30px;
+	color:green;
+}
+
+/*child selector*/
+ul>li a{
+	list-style-type: none;
+
+}
+ul+p{
+	color:red;
+}
+
+
+/*group slector*/
+h1,ul,p{
+	background-color: darkviolet;
+	font-style:italic;
+}
