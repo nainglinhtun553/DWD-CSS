@@ -7,7 +7,7 @@
 	<style>
 		h1{
 			font-size: 14px;
-			/* browser original font-size is 16px. */
+			/* browser original font-size is 16px. as percent (100%) */
 			/*16px is equal to 1em*/
 
 		}
@@ -22,20 +22,14 @@
 
 		}
 		span{
-			font-size:40px;
+			font-size:xx-small;
 		}
 
 		h1{
 			font-size: 40px;
-		}
+		}		
 
-
-
-
-
-		
-
-		body{
+		html{
 			font-size:62.5%;
 			/*10px=62.5%*/
 
@@ -44,6 +38,10 @@
 		span{
 			font-size:1em;
 		}
+
+
+
+		
 
 
 	</style>
@@ -56,13 +54,36 @@
 
 	<span>Hello this is span</span>
 	<div>Hello this is div</div>
-	<!-- em သည် မူရင်း font size အပေါ် မူတည်၍ တွက်ပေးသည် or ပြောင်းလဲပေးသည်။
+	<!-- em သည် မူရင်း font size အပေါ် မူတည်၍ တွက်ပေးသည် or ပြောင်းလဲပေးသည်။ em သည် parent elements ပေါ် မူတည်၍ သွားသည်။ 
+		
+
+
+		rem သည် html တစ်ခုလုံးပေါ် မူတည်၍ သွားသည်။ rem သည် root element X em ဖြစ်သည်။ 
+
+
+		keywords
+		xx-small, x-small, medium, large, x-large, xx-large 
+
+		xx-small= 9px, large=18px, x-large= 24px, xx-large =32px;
+
+		view port မှာ 2 မျိုး ရှိသည်။ ၄င်း၏ အသေးစိတ်ကို www.viewportsizer.com မှာ ဝင်ရောက်ကြည့်ရှု့နိုင်ပါသည်။ 
+		၁. vh 
+		၂. vw 
+
+		100px (100%)
+		1% =16px
+		 1vw=16px
+	
+
 
 	browser =16px
 	1em =20px
 	2em=40px
 	3em=60px
 	 -->
+
+
+
 	 <h1>Hello this is h1</h1>
 
 
