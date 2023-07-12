@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		table,th,td{
+
+			border:3px dotted green;
+
+		}
+
+		table{
+			border-collapse: collapse;
+			width:50%;
+			color:gray;
+			background-color:#fdebd3;
+
+		}
+
+		th,td{
+			padding:10px;
+			height:30px;
+		}
+
+		.responsive{
+			overflow-x:auto;
+
+		}
+
+
+/*table ထဲမှာ တစ်လိုင်းကျော် အရောင်ပြောင်ချင်လို့ ရေးသည်။*/
+		tbody tr:nth-child(even){
+			background-color:white;
+			color:red;
+
+
+		}
+	</style>
+</head>
+<body>
+		<div class="responsive">
+			<table>
+			<tr>
+				<th>ID</th>
+				<th>Name</th>
+				<th>Email</th>
+				<th>Phone Number</th>
+			</tr>
+
+			<tbody>
+				<tr>
+				<td>1</td>
+				<td>Niang Lin Htun</td>
+				<td>nianglinhtun.developer@gmail.com</td>
+				<td>0965810972</td>
+			</tr>
+
+			<tr>
+				<td>1</td>
+				<td>Niang Lin Htun</td>
+				<td>nianglinhtun.developer@gmail.com</td>
+				<td>0965810972</td>
+			</tr>
+
+			<tr>
+				<td>1</td>
+				<td>Niang Lin Htun</td>
+				<td>nianglinhtun.developer@gmail.com</td>
+				<td>0965810972</td>
+			</tr>
+
+			<tr>
+				<td>1</td>
+				<td>Niang Lin Htun</td>
+				<td>nianglinhtun.developer@gmail.com</td>
+				<td>0965810972</td>
+			</tr>
+			</tbody>
+		</table>
+		</div>	
+</body>
+</html>
